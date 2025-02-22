@@ -1,7 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:5000"; // Update if backend is deployed
-
+const API_URL = "https://transaction-dashboard-isty.onrender.com"; 
 // Generic function to handle API requests
 const fetchData = async (endpoint, defaultValue = []) => {
   try {
