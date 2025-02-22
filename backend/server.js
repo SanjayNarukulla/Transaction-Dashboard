@@ -11,7 +11,7 @@ connectDB();
 // ✅ Security: Restrict CORS settings
 app.use(
   cors({
-    origin: process.env.CLIENT_URL || "https://transaction-dashboard-1-sj1k.onrender.com/",
+    origin: process.env.CLIENT_URL || "https://transaction-dashboard-1-sj1k.onrender.com",
     methods: ["GET", "POST"],
     allowedHeaders: ["Content-Type", "Authorization"],
   })
