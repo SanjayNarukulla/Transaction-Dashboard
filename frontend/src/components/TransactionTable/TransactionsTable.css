@@ -1,0 +1,90 @@
+/* Transactions Table Styling */
+.transactions-container {
+  max-width: 100%;
+  margin: 20px auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  overflow-x: auto;
+}
+
+.transactions-title {
+  text-align: center;
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+/* Table Wrapper */
+.table-wrapper {
+  overflow-x: auto;
+}
+
+/* Table Styling */
+.transactions-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.transactions-table th,
+.transactions-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.transactions-table th {
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+}
+
+.transactions-table tr:hover {
+  background-color: #f1f1f1;
+  transition: 0.3s ease-in-out;
+}
+
+/* Product Image */
+.product-image {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Pagination Styling */
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+/* Search Bar */
+.search-bar {
+  margin-bottom: 15px;
+}
+
+/* Error & No Transactions Message */
+.error-message {
+  color: red;
+  text-align: center;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.no-transactions {
+  text-align: center;
+  font-size: 18px;
+  color: #666;
+}
+
+/* Truncate long descriptions */
+.truncate-text {
+  max-width: 250px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
